@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="shortcut icon"
+      href="https://ml.globenewswire.com/media/7bd688ca-efcf-4119-9376-b56a3813659b/small/post-logo-jpg.jpg"
+      type="image/x-icon"
+    />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>POSTS API CRUD</title>
+  </head>
+  <body>
+    <header>
+      <button onclick="addPostForm()" class="addPostBtn">Add new post</button>
+      <div class="addPostDiv"></div>
+    </header>
+    <div class="editFormDiv" id="editFormData"></div>
+    <div class="informationDiv">
+      <h2 id="isLoading">Loading...</h2>
+      <h2 class="postCountText">Total posts <span id="postsCount"></span></h2>
+
+      <div class="postsContainer"></div>
+      <!-- modal div  -->
+      <div class="modalBody">
+        <div style="margin: 100px 0px"></div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
